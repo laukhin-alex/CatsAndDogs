@@ -11,6 +11,7 @@
 		1FC56023293A762D00B0674D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC56022293A762D00B0674D /* ContentView.swift */; };
 		1FC56025293A762F00B0674D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC56024293A762F00B0674D /* Assets.xcassets */; };
 		1FC56028293A762F00B0674D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC56027293A762F00B0674D /* Preview Assets.xcassets */; };
+		1FC56031293A773500B0674D /* CatAndDogClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FC56030293A773500B0674D /* CatAndDogClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1FC56022293A762D00B0674D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FC56024293A762F00B0674D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC56027293A762F00B0674D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FC56030293A773500B0674D /* CatAndDogClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatAndDogClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				1FC56020293A762D00B0674D /* CatsAndDogsApp.swift */,
+				1FC56030293A773500B0674D /* CatAndDogClassifier.mlmodel */,
 				1FC56022293A762D00B0674D /* ContentView.swift */,
 				1FC56024293A762F00B0674D /* Assets.xcassets */,
 				1FC56026293A762F00B0674D /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC56023293A762D00B0674D /* ContentView.swift in Sources */,
+				1FC56031293A773500B0674D /* CatAndDogClassifier.mlmodel in Sources */,
 				1FC56021293A762D00B0674D /* CatsAndDogsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
